@@ -18,12 +18,24 @@ Pomofly é um aplicativo de Pomodoro gamificado, onde você conquista e personal
 - Flutter (Dart)
 - Material Design
 
-## ⚙️ Como rodar o projeto
+## ⚙️ Como rodar o projeto ANDROID
 1. Certifique-se de ter o Flutter instalado ([guia oficial](https://docs.flutter.dev/get-started/install))
 2. Clone este repositório
 3. Execute `flutter pub get` para instalar as dependências
 4. Rode o app com `flutter run`
 
+## ⚙️ Como rodar o projeto na WEB
+1. Verifique se o Flutter Web está habilitado
+   ```sh
+   flutter devices
+   ```
+   Se aparecer algum dispositivo web (como Chrome), o suporte já está habilitado.
+
+2.  Rode o projeto no navegador
+     ```sh
+    flutter run -d chrome
+    ```
+    
 ## 💡 Sobre o método Pomodoro
 O método Pomodoro é uma técnica de gerenciamento de tempo que alterna períodos de foco intenso com pequenas pausas, aumentando a produtividade e o bem-estar.
 
